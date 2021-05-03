@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Texas Parks Weather</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+  </head>
+  <header>
+    <h1>Texas Parks Weather</h1>
+  </header>
+
+  <body>
+    <div class="hero"></div>
+
+    <div class="row">
+      <div class="column">
+        <h2>Search</h2>
+        <div class="input-group justify-content-center mt-5">
+          <select id="searchField" class="search">
+            <option id="tx" value="">Select</option>
+            <option id="tx" value="alfl">Alibates Flint Quarries</option>
+            <option id="tx" value="amis">Amistad</option>
+            <option value="Bibe">Big Bend</option>
+            <option value="Bith">Big Thicket</option>
+            <option value="Cham">Chamizal</option>
+            <option value="elte">El Camino Real de los Tejas</option>
+            <option value="elca">El Camino Real de Tierra Adentro</option>
+            <option value="foda">Fort Davis</option>
+            <option value="gumo">Guadalupe Mountains</option>
+            <option value="lamr">Lake Meredith</option>
+            <option value="lyjo">Lyndon B Johnson</option>
+            <option value="pais">Padre Island</option>
+            <option value="paal">Palo Alto Battlefield</option>
+            <option value="rigr">Rio Grande</option>
+            <option value="saan">San Antonio Missions</option>
+            <option value="waco">Waco Mammoth</option>
+            <input id="btn" type="submit" value="Submit">
+          </select>
+        </div>
+      </div>
+      <div class="column">
+        <h2>Park</h2>
+        <div id="parkinfo"></div>
+      </div>
+      <div class="column">
+        <h2>Weather</h2>
+      </div>
+    </div>
+
+    <footer>
+      <h3>Made By:</h3>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
